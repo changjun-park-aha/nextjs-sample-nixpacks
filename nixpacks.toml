@@ -6,7 +6,7 @@ aptPkgs = ['build-essential']
 cmds = ["pnpm install --frozen-lockfile"]
 
 [phases.build]
-cmds = ["pnpm build:aha"]
+cmds = ["pnpm build"]
 
 [start]
-cmd = "pnpm run start:aha"
+cmd = "pnpm run start"
